@@ -7,7 +7,8 @@ Functionality
 ---------------------
 
 - Options Pricing
-- Greeks Valuation
+- Greeks Valuation on options
+- Swaption pricing
 
 Install
 ---------------------
