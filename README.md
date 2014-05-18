@@ -18,8 +18,8 @@ Install
 Methods
 ---------------------
 
-CallOption(double r, double sig, double K, double T, double b)
-PutOption(double r, double sig, double K, double T, double b)
+- CallOption(double r, double sig, double K, double T, double b)
+- PutOption(double r, double sig, double K, double T, double b)
 
 Both implement IOption
 
