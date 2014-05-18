@@ -1,0 +1,10 @@
+QuantShorts
+
+A C# library for financial mathematics
+
+Functionality
+
+- Options Pricing
+- Greeks Valuation
+
+How to use it
