@@ -8,3 +8,36 @@ Functionality
 - Greeks Valuation
 
 How to use it
+
+1. Add the dll as a reference in your C# project.
+2. Add the reference QuantShorts to your C# code.
+
+Methods:
+
+create option:
+
+Option(double r, double sig, double K, double T, double b, OptionType optionType)
+
+optionType should be either OptionType.Call or OptionType.Put
+
+
+double CallPrice(double s) 
+double PutPrice(double s)
+double CallDelta(double s) 
+double PutDelta(double s)
+double Vega(double s)
+double CallTheta(double s)
+double PutTheta(double s)
+double CallRho(double s)
+double PutRho(double s)
+double Gamma(double s)
+double Vanna(double s)
+double CallCharm(double s)
+double PutCharm(double s)
+double Vomma(double s)
+double Veta(double s)
+double Speed(double s)
+double Zomma(double s)
+double Color(double s)
+
+s is price of underlier
