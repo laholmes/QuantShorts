@@ -6,8 +6,8 @@ A C# library for financial mathematics
 Functionality
 ---------------------
 
-- Options Pricing
-- Greeks Valuation on options
+- Option Pricing
+- Greeks valuation on options
 - Swaption pricing
 
 Install
