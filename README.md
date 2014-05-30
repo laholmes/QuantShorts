@@ -9,6 +9,7 @@ Functionality
 - Option pricing
 - Greeks valuation on options
 - Swaption pricing
+- Math extensions (list below)
 
 Install
 ---------------------
@@ -70,3 +71,12 @@ Where
 For forward rate F of underlier:
 
 - Price(double F)
+
+
+Math Extensions
+---------------
+
+- Normal(double x)
+- CumulativeNormal(double x)
+- Kelly(double prob, double netOdds)
+- Sharpe(double excessReturn, double stdDev)
